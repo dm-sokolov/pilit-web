@@ -13,6 +13,10 @@ namespace Ascon.Pilot.Web
         public static string PilotServerUrl;
         public static string Database;
 
+        /// <summary>
+        /// main
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(string[] args)
         {
             if (args.Length > 0)
